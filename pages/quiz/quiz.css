@@ -265,6 +265,12 @@ main {
         width: 100%;
     }
 
+    .pergunta {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
     .pergunta p {
         font-size: 20px;
         line-height: 30px;
@@ -275,4 +281,29 @@ main {
         font-size: 36px;
         line-height: 42px;
     }
+
+    .alternativas form {
+        gap: 24px;
+        margin-bottom: 24px;
+    }
+
+    .alternativas label {
+        font-size: 22px;
+        padding: 18px 20px;
+    }
+
+    .alternativas div {
+        gap: 32px;
+    }
+
+    .alternativas div span {
+        width: 56px;
+        height: 56px;
+        font-size: 28px;
+    }
+
+    .alternativas button {
+        font-size: 22px;
+    }
+
 }
