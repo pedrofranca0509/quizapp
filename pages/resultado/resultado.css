@@ -8,7 +8,7 @@
 
 :root {
     --bg--color: #f4f6fa;
-    --bg-span: #f4f6fa; 
+    --bg-span: #f4f6fa;
     --color-span: #626c7f;
     --purple: #a729f5;
     --purple-hover: rgba(167, 41, 245, 0.6);
@@ -102,7 +102,7 @@ header {
     border-radius: 999px;
 }
 
-main{ 
+main {
     padding: 32px 24px;
 }
 
@@ -158,25 +158,25 @@ main button:hover {
 
 @media (min-width: 1160px) {
 
-    body{
+    body {
         background: var(--bg-desktop) var(--bg--color);
         background-size: cover;
         background-repeat: no-repeat;
     }
-    
+
     header {
         margin-block: 86px;
         max-width: 1160px;
         margin-inline: auto;
     }
 
-    .assunto_icone{
+    .assunto_icone {
         width: 56px;
         height: 56px;
         padding: 8px;
     }
 
-    .assunto h1{
+    .assunto h1 {
         font-size: 28px;
     }
 
@@ -199,7 +199,7 @@ main button:hover {
         height: 20px;
     }
 
-    main{
+    main {
         display: flex;
         gap: 148px;
         max-width: 1160px;
@@ -207,12 +207,30 @@ main button:hover {
     }
 
     main h2,
-    main > div {
+    main>div {
         width: 100%;
-    } 
+    }
 
     main h2 {
         font-size: 64px;
     }
 
+    .pontuacao {
+        border-radius: 24px;
+        margin-bottom: 32px;
+    }
+
+    .pontuacao strong {
+        font-size: 144px;
+    }
+
+    .pontuacao p {
+        font-size: 24px;
+    }
+
+    main button {
+        font-size: 22px;
+        padding: 24px;
+        border-radius: 24px;
+    }
 }
