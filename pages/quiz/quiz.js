@@ -110,4 +110,4 @@ async function iniciar() {
 }
 
 iniciar()
-montarPergunta()
+buscarPerguntas()
